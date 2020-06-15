@@ -48,6 +48,6 @@ plt.legend(['Paper number'], loc="lower right",
            prop=font2, edgecolor='black', bbox_to_anchor=(0.97, 0.03), shadow=True)
 plt.xlim((2014, 2021))
 plt.ylim((-1, 100))
-# plt.savefig('model.png')
+plt.savefig('model.png')
 plt.title('Papers')
 plt.show()

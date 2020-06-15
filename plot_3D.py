@@ -17,10 +17,10 @@ ax.bar([1, 2, 3, 4], [74.21, 75.97, 68.35, 71.96], 4, zdir='y', color='khaki', a
 ax.bar([1, 2, 3, 4], [78.68, 78.91, 71.29, 74.91], 5, zdir='y', color='navy', alpha=0.94)
 ax.bar([1, 2, 3, 4], [83.45, 83.82, 75.05, 79.19], 6, zdir='y', color='orange', alpha=1)
 
-font = {'family' : 'Times New Roman',
-'weight' : 'normal',
-'size'   : 16.8,
-}
+font = {'family': 'Times New Roman',
+        'weight': 'normal',
+        'size': 16.8,
+        }
 
 ax.set_xlabel('X', font)
 ax.set_ylabel('Y', font)
@@ -36,4 +36,4 @@ ax.set_ylim3d(1, 6)
 ax.set_zlim3d(0, 100)
 plt.tick_params(labelsize=17)
 plt.show()
-# fig.savefig("3D_Figure.pdf", format='pdf', dpi=1000)
+# fig.savefig("model.png")
